@@ -16,9 +16,9 @@ ui:
   static_use_hash: true
 engines: 
   - name: ahmia
-  disabled: true
+    disabled: true
   - name: torch
-  disabled: true
+    disabled: true
 # Redis configuration
 # redis:
 #   url: ${REDIS_URL}
