@@ -14,12 +14,6 @@ server:
   image_proxy: true
 ui:
   static_use_hash: true
-brand: 
-  issue_url: false
-  docs_url: false
-  public_instances: false
-  wiki_url: false
-  new_issue_url: false
 # Redis configuration
 # redis:
 #   url: ${REDIS_URL}
