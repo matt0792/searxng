@@ -1,7 +1,14 @@
-# This configuration file updates the default configuration file
-# See https://github.com/searxng/searxng/blob/master/searx/limiter.toml
+[botdetection]
+trusted_proxies = [
+    "127.0.0.0/8",
+    "::1",
+    "10.0.0.0/8",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+    "fd00::/8",
+    "100.64.0.0/10",
+]
 
-[botdetection.ip_limit]
-# activate advanced bot protection
-# enable this when running the instance for a public usage on the internet
-link_token = false
+[botdetection.ip_lists]
+pass_ip = []
+pass_searxng_org = true
